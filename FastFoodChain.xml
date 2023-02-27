@@ -55,6 +55,7 @@
                     <year>1952</year>
                     <month>September</month>
                     <day>24</day>
+                </date_established>
             </established>
         <tagline>Langhap Sarap!</tagline>
         <motto>Philippines best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside</motto>
@@ -65,7 +66,7 @@
 
 
     <fastfood branch="Chowking">
-        <founder name="Robert Kuan"></founder>
+        <founder name="Robert Kuan">
             <established>
                 <about_established>Chowking set up its first store on March 18, 1985, under the company of Robert Kuan when American-style burger chains were dominating the Philippine fast food industry.</about_established>
                     <competitors branch="Greenwich">
