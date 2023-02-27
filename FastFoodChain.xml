@@ -2,17 +2,21 @@
 
 
 <fastfood_chain>
-    <fastfood>
-        <name>McDonald&apos;s</name>
-        <tagline>Good time, Great taste</tagline>
-        <motto>At our best, we don't just serve food, we serve moments of feel-good, all with the lighthearted, unpretentious, welcoming, dependable personality consumers know and love</motto>
-        <founder>Ray Kroc</founder>
-        <established>
-            <about_established>The world famous Golden Arches arrived in the Philippines when Dr. George T. Yang opened the first-ever McDonald's restaurant in the country.</about_established>
-            <date_established>
-                <year>1981</year>
-            </date_established>
-        </established>
+    <fastfood branch="McDonald&apos;s">
+        <founder name="Ray Kroc">
+            <established>
+                <about_established>The world famous Golden Arches arrived in the Philippines when Dr. George T. Yang opened the first-ever McDonald's restaurant in the country.</about_established>
+                    <competitors branch="Burger king">
+                        <best_seller>Burger</best_seller>
+                    </competitors>
+                <date_established>
+                    <year>1981</year>
+                </date_established>
+            </established>
+            <best_seller>French fries</best_seller>
+            <tagline>Good time, Great taste</tagline>
+            <motto>At our best, we don't just serve food, we serve moments of feel-good, all with the lighthearted, unpretentious, welcoming, dependable personality consumers know and love</motto>
+        </founder>
     </fastfood> 
     
     
@@ -22,61 +26,79 @@
             <initial_name>KFC</initial_name>
             <acronym>Kentucky Fried Chicken</acronym>
         </name>
-        <tagline>Finger Lickin&apos; Good</tagline>
-        <founder>Colonel harland Sanders</founder>
-        <established>
-            <about_established>Kentucky Fried Chicken, or as we know it today- KFC, started in 1952 in Utah. In July 1940, Harland created his unique recipe with 11 herbs and some flavours. Harland Sanders had gone through a lot and finally, he revealed his secret recipe to his friend Pete Harman</about_established>
-            <date_established>
-                <year>1952</year>
-                <month>September</month>
-                <day>24</day>
-            </date_established>
-        </established>
+        <founder name="Colonel harland Sanders">
+            <established>
+                <about_established>Kentucky Fried Chicken, or as we know it today- KFC, started in 1952 in Utah. In July 1940, Harland created his unique recipe with 11 herbs and some flavours. Harland Sanders had gone through a lot and finally, he revealed his secret recipe to his friend Pete Harman</about_established>
+                    <competitors branch="Popeyes">
+                        <best_seller>Chicken Sandwich</best_seller>
+                    </competitors>
+                <date_established>
+                    <year>1952</year>
+                    <month>September</month>
+                    <day>24</day>
+                </date_established>
+            </established>
+            <tagline>Finger Lickin&apos; Good</tagline>
+            <best_seller>Fried Chicken</best_seller>
+        </founder>
     </fastfood>    
 
 
-    <fastfood>
-        <name>Jollibee</name>
+    <fastfood name="Jollibee">
+        <founder name="Tony Tan Caktiong">
+            <established>
+                <about_established>Our Jollibee Group was founded in 1975 by Tony Tan Caktiong. With the help of his wife Grace, his family, and in-laws, they started everything with a small family business selling ice cream in the streets of Manila.</about_established>
+                    <competitors branch="KFC">
+                        <best_seller>Fried Chicken</best_seller>
+                    </competitors>
+                <date_established>
+                    <year>1952</year>
+                    <month>September</month>
+                    <day>24</day>
+            </established>
         <tagline>Langhap Sarap!</tagline>
         <motto>Philippines best-tasting crispylicious, juicylicious Chickenjoy that is crispy on the outside, tender and juicy on the inside</motto>
-        <founder>Tony Tan Caktiong</founder>
-        <established>
-            <year>1978</year>
-            <month>January</month>
-            <day>28</day>
-        </established>
+        <best_seller>Chicken Joy</best_seller>
+        </founder>
     </fastfood> 
 
 
 
-    <fastfood>
-        <name>Chowking</name>
+    <fastfood branch="Chowking">
+        <founder name="Robert Kuan"></founder>
+            <established>
+                <about_established>Chowking set up its first store on March 18, 1985, under the company of Robert Kuan when American-style burger chains were dominating the Philippine fast food industry.</about_established>
+                    <competitors branch="Greenwich">
+                        <best_seller>Pizza</best_seller>
+                    </competitors>
+                <date_established>
+                    <year>1985</year>
+                    <month>March</month>
+                    <day>18</day>
+                </date_established>
+            </established>
         <tagline>Tikman ang bagong sarap</tagline>
-        <founder>Robert Kuan</founder>
-        <established>
-            <about_established>Chowking set up its first store on March 18, 1985, under the company of Robert Kuan when American-style burger chains were dominating the Philippine fast food industry.</about_established>
-            <date_established>
-                <year>1985</year>
-                <month>March</month>
-                <day>18</day>
-            </date_established>
-        </established>
+        <best_seller>Pork Chao fan</best_seller>
+        </founder>
     </fastfood> 
 
 
 
-    <fastfood>
-        <name>Mang Inasal</name>
+    <fastfood branch="Mang Inasal">
+        <founder name="Edgar Sias">
+            <established>
+                <about_established>Mang Inasal Philippines, Inc., also known as Mang Inasal, is a barbecue fast food restaurant chain in the Philippines, established in Iloilo City in 2003.</about_established>
+                    <competitors branch="Bente Silog">
+                        <best_seller>Beef Tapa Silog</best_seller>
+                    </competitors>
+                <date_established>
+                    <year>2003</year>
+                    <month>December</month>
+                    <day>12</day>
+                </date_established>
+            </established>
         <tagline>The more the many-er</tagline>
-        <founder>Edgar &quot;Injap&quot; Jaruda Sia</founder>
-        <established>
-            <about_established>Mang Inasal Philippines, Inc., also known as Mang Inasal, is a barbecue fast food restaurant chain in the Philippines, established in Iloilo City in 2003.</about_established>
-            <date_established>
-                <year>2003</year>
-                <month>December</month>
-                <day>12</day>
-            </date_established>
-        </established>
+        </founder>
     </fastfood> 
 
 
